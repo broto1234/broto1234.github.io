@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio-Satyobroto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav-mode">
+      <nav>
+        <div class="logo"><a href="#">MY PORTFOLIO</a></div>
+        <div>
+          <ul class="nav-active">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>  
+          <i class="ri-menu-line open-icon show menu-icon"></i>
+        </div>
+      </nav> 
+      <div>
+        <i class="ri-moon-line moon-mode"></i>
+        <i class="ri-sun-fill sun-mode"></i>
+      </div>          
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container hero-part">
+      <div class="hero">
+        <h5>Hi, I am</h5>
+        <h1>Satyobroto Talukder</h1>
+        <p>I am a Front End Developer</p>
+      </div>
+      <div class="hero-image">
+        <img src="images/satyo.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-topText"><h1>About Me</h1></div>
+      <div class="line-design"><i class="circle-color ri-checkbox-blank-circle-line"></i></div>
+      <div class="about-main">
+        <div class="about-content">
+          <h1>Satyobroto Talukder</h1>
+          <p>I am frontend developer, passionate about creating and developing websites using HTML, CSS, JavaScript, React.js, and Next.js.</p>
+        </div>
+        <div class="about-img">
+          <img src="images/about-image.png" alt="my-pic">
+        </div>  
+        <div class="about-skill">
+          <div class="my-skill">
+            <p class="skill-link active-line" data-id="#skills">Skills</p>
+            <p class="skill-link" data-id="#education">Educaiton</p>
+          </div>
+          <div class="skill-content">
+            <div id="skills" class="skill-edu active skill-detailed"  data-content>
+              <ul>
+                <li><h4>JavaScript</h4><span>Intermediate</span></li>                
+                <li><h4>React.js</h4><span>Intermediate</span></li>                
+                <li><h4>Next.js</h4><span>Beginner</span></li>                
+                <li><h4>CSS</h4><span>Intermediate</span></li>                
+                <li><h4>HTML</h4><span>Intermediate</span></li>                
+                <li><h4>Tailwind css</h4><span>Intermediate</span></li>                
+                <li><h4>TypeScript</h4><span>Beginner</span></li>                
+              </ul>
+            </div>
+            <div id="education" class="skill-edu education-detailed" data-content>
+              <ul>
+                <li><h4>Web Development Bootcamp, bootcamp.dev</h4><span>10 weeks, 2023</span></li> 
+                <li><h4>AWS re/Start program, Convision</h4><span>3 months intensive course, 2022</span></li> 
+                <li><h4>App development with ASP.NET MVC,nyledige.dk</h4><span>6 weeks, 2022</span></li>                               
+                <li><h4>Web development for beginners,nyledige.dk</h4><span>6 weeks, 2020</span></li>  
+                <li><h4>Master of Science in Mathematical Modelling and Simulation</h4><span>2009-2011  BTH, Sweden</span></li>                
+                <li><h4>Bachelor of Science in Mathematics</h4><span>1999-2003 University of Dhaka, Bangladesh</span></li>                
+              </ul>
+            </div> 
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <section id="project">
+    <div class="container">
+      <div class="section-topText"><h1>My Projects</h1></div>
+      <div class="line-design"><i class="circle-color ri-checkbox-blank-circle-line"></i></div>
+      <div class="display-grid">
+        <div class="project">
+          <img src="images/form.png" alt="form">
+          <div class="project-text">
+            <a href="https://form-validation-html-tailwind-js.vercel.app/" target="_blank"><i class="ri-external-link-line"></i></a>
+          </div>
+          <h3>Form Validation HTML-Tailwind-js</h3>
+        </div>
+        <div class="project">
+          <img src="images/res.png" alt="web">
+          <div class="project-text">
+            <a href="https://broto1234.github.io/responsive-Website-with-HTML-CSS-and-JS/" target="_blank"><i class="ri-external-link-line"></i></a>
+          </div>
+          <h3>Responsivie website HTML-CSS-JS </h3>
+        </div>
+        <div class="project">
+          <img src="images/img.png" alt="img">
+          <div class="project-text">
+            <a href="https://image-search-app-html-css-js.vercel.app/" target="_blank"><i class="ri-external-link-line" ></i></a>
+          </div>
+          <h3>Image search app HTML-CSS-JS</h3>
+        </div>
+        <div class="project">
+          <img src="images/todo.png" alt="todo">
+          <div class="project-text">
+            <a href="https://react-todo-list-app-kappa.vercel.app/" target="_blank"><i class="ri-external-link-line" ></i></a>
+          </div>
+          <h3>Todo List App Tailwind,Vite+React.js</h3>
+        </div>
+        <div class="project">
+          <img src="images/github.png" alt="github">
+          <div class="project-text">
+            <a href="https://react-github-user-search-mu.vercel.app/" target="_blank"><i class="ri-external-link-line" ></i></a>
+          </div>
+          <h3>Github User Search App Tailwind,Vite+React.js</h3>
+        </div>
+        <div class="project">
+          <img src="images/next.png" alt="next">
+          <div class="project-text">
+            <a href="https://next-js-three-delta.vercel.app/" target="_blank"><i class="ri-external-link-line" ></i></a>
+          </div>
+          <h3>Next.js-Tailwindcss-Contentful CMS </h3>
+        </div>
+      </div>
+      <div class="project-btn"><a href="https://github.com/broto1234?tab=repositories" target="_blank">See More Projects >></a></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact-container">
+      <div class="section-topText"><h1>Contact Me</h1></div>
+      <div class="line-design"><i class="circle-color ri-checkbox-blank-circle-line"></i></div>
+      <div>
+        <div class="contact-info">
+          <ul>
+            <li><i class="ri-map-pin-fill"></i> Vestre Kvartergade 7B.1, Copenhagen, Denmark</li>
+            <li><i class="ri-mail-fill"></i> satyo97du@gmail.com</li>
+            <li><i class="ri-smartphone-fill"></i> +45-71659540</li>
+            <li class="social-media"><a href="https://www.linkedin.com/in/satyobroto/" target="_blank"><i class="ri-linkedin-box-line"></i></a><a href="https://github.com/broto1234" target="_blank"><i class="ri-github-line"></i></a></li>
+          </ul>
+          <div class="contact-download">
+            <a href="images/cv.pdf" download="" class="btn"> <span class="download">Download CV </span> <span class="download-icon"><i class="ri-download-line"></i></span></a>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>2023 |<a href="">Satyobroto Talukder</a></p>
+  </footer>  
+
+  <script src="script.js"></script>
+</body>
+</html>
