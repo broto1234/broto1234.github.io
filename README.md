@@ -1,22 +1,30 @@
-🌐 Personal Portfolio Website
+## 🌐 Personal Portfolio Website
+
 My portfolio:   https://broto1234.github.io/
 
---
-🚀 About
+## 🚀 About
+
 This is my personal portfolio website where I showcase my projects, skills, and experience. It is designed to be responsive, fast, and visually appealing.
 
-🎨 Features
+## 🎨 Features
+
 ✅ Modern & Responsive Design
+
 ✅ About Me Section
+
 ✅ Projects Showcase
+
 ✅ Contact Form
+
 ✅ Dark/Light Mode
 
---
-🚀 Live Demo
+## 🚀 Live Demo
+
 🔗 [Project Demo](https://weather-app-html-css-js-sage.vercel.app/)  
 
---
-🛠️ Technologies Used
+
+## 🛠️ Technologies Used
+
 Frontend: HTML, CSS, JavaScript
+
 Deployment: Vercel, GitHub Pages
