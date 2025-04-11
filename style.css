@@ -207,6 +207,7 @@ nav ul li a:hover::after{
   border-radius: 50%;
 }
 
+/* ------- skills ----------- */
 .about-skill {
   position: relative;
 }
@@ -247,23 +248,45 @@ nav ul li a:hover::after{
 .skill-edu[data-content]{
   display: none;
 }
-
+/*
 .skill-edu li {
   margin: 0.5rem 2rem 0 0;
 }
-
-.skill-edu span {
-  color: #ababab;
+*/ 
+.skill__list {
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin: 0px auto;
+  gap: 0.75rem;
+  /* padding: 1rem; */
 }
+.skills__item {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: rgb(217, 217, 217);
+  font-size: 0.7rem;
+  background: rgb(32, 32, 32);
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.75rem;
+}
+
+.skills__item img {
+  width: 0.9rem;
+  margin-inline-end: 0.3rem;
+}
+
 
 .active[data-content] {
   display: block;
 }
 
-.skill-detailed ul {
+/* .skill-detailed ul {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-}
+} */
 
 .education-detailed {
   font-size: 12px;
@@ -588,16 +611,15 @@ footer p a {
     position: relative;
   }
   
-  .skill-edu li {
-    margin: 0;
-    padding: 0.5rem 0;
+  .skill__list {
+    justify-content: center;
   }
-  
-  .skill-detailed ul {
+
+  /* .skill-detailed ul {
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
-  
+   */
   #project {
     padding: 1rem 0 0;
     margin-top: 0;
